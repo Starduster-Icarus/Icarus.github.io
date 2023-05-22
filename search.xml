@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>FPGA内部结构</title>
+      <link href="/2023/05/22/FPGA%E5%86%85%E9%83%A8%E7%BB%93%E6%9E%84/"/>
+      <url>/2023/05/22/FPGA%E5%86%85%E9%83%A8%E7%BB%93%E6%9E%84/</url>
+      
+        <content type="html"><![CDATA[<p>FPGA内部结构</p><p>1. 可编程逻辑单元（LABS）</p><p>【包含逻辑单元（LEs）,自适逻辑模块（ALMs）,查找表（LUT）,进位逻辑，输出寄存器逻辑】lut dff辅助逻辑</p><p>LE和ALM是同级的，有些LAB里是LE，有些是ALM。ALM比LE复杂一些。</p><p>2.可编程连线</p><p>3.可编程IO（多个I&#x2F;O标准，差分信号输出，电流驱动强度&#x2F;速度调节，片上终端&#x2F;上拉电阻，开漏&#x2F;三态）</p><p>4.时钟资源（PLL,专用输入时钟引脚，时钟控制模块，时钟布线网络）</p><p>5.嵌入式块RAM</p><p>6.底层功能单元（DSP模块，高速收发器，硬IP模块）</p><p>FPGA→LAB（逻辑阵列块）→LE(ALM)（自适应逻辑模块）【最小逻辑单元】→LUT+触发器+辅助逻辑</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> FPGA </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 内部原理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2023/05/20/hello-world/"/>
       <url>/2023/05/20/hello-world/</url>
