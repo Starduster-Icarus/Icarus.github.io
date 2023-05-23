@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>基于Avalon_MM接口的SDRAM读写</title>
+      <link href="/2023/05/23/%E5%9F%BA%E4%BA%8EAvalon_MM%E6%8E%A5%E5%8F%A3%E7%9A%84SDRAM%E8%AF%BB%E5%86%99/"/>
+      <url>/2023/05/23/%E5%9F%BA%E4%BA%8EAvalon_MM%E6%8E%A5%E5%8F%A3%E7%9A%84SDRAM%E8%AF%BB%E5%86%99/</url>
+      
+        <content type="html"><![CDATA[<h1 id="FPGA内部结构"><a href="#FPGA内部结构" class="headerlink" title="FPGA内部结构"></a>FPGA内部结构</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> FPGA </category>
+          
+          <category> SDRAM </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> FPGA </tag>
+            
+            <tag> SDRAM </tag>
+            
+            <tag> Avalon_MM </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>FPGA内部结构</title>
       <link href="/2023/05/22/FPGA%E5%86%85%E9%83%A8%E7%BB%93%E6%9E%84/"/>
       <url>/2023/05/22/FPGA%E5%86%85%E9%83%A8%E7%BB%93%E6%9E%84/</url>
@@ -13,7 +44,9 @@
       
       <categories>
           
-          <category> FPGA基础知识 </category>
+          <category> FPGA内部结构 </category>
+          
+          <category> FPGA </category>
           
       </categories>
       
@@ -21,6 +54,8 @@
         <tags>
             
             <tag> FPGA内部结构 </tag>
+            
+            <tag> FPGA </tag>
             
         </tags>
       
