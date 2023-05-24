@@ -33,6 +33,37 @@
     
     
     <entry>
+      <title>同步复位和异步复位的区别</title>
+      <link href="/2023/05/24/%E5%90%8C%E6%AD%A5%E5%A4%8D%E4%BD%8D%E5%92%8C%E5%BC%82%E6%AD%A5%E5%A4%8D%E4%BD%8D%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
+      <url>/2023/05/24/%E5%90%8C%E6%AD%A5%E5%A4%8D%E4%BD%8D%E5%92%8C%E5%BC%82%E6%AD%A5%E5%A4%8D%E4%BD%8D%E7%9A%84%E5%8C%BA%E5%88%AB/</url>
+      
+        <content type="html"><![CDATA[<h1 id="同步复位和异步复位的区别"><a href="#同步复位和异步复位的区别" class="headerlink" title="同步复位和异步复位的区别"></a>同步复位和异步复位的区别</h1><h2 id=""><a href="#" class="headerlink" title=""></a><font color= salmon size=5></h2><ul><li><ol><li><font color= salmon size=5>同步复位：复位的有效条件与clk的上升沿有关，当clk的上升沿采到rst_n为低的时候可复位。<br></li></ol></li><li><ol start="2"><li><font color= salmon size=5>异步复位：复位的触发条件不仅与clk的上升沿有关，还与rst_n的下降沿有关，当clk上升沿采到rst_n为低时可复位，同时当遇到rst_n下降沿时也进行复位。<br></li></ol></li><li><ol start="3"><li><font color= salmon size=5>同步复位是指复位信号只有在时钟上升沿到来时才能有效，否则无法完成对系统的复位工作。异步复位是指无论时钟沿是否到来，只要复位信号有效，就能对系统进行复位。异步复位对复位信号的质量要求比较高，不能有毛刺，如果其与时钟关系不确定，也可能出现亚稳态。</font ></li></ol></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> FPGA </category>
+          
+          <category> FPGA基础知识 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> FPGA </tag>
+            
+            <tag> 同步复位 </tag>
+            
+            <tag> 异步复位 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>基于Avalon_MM接口的SDRAM读写</title>
       <link href="/2023/05/23/%E5%9F%BA%E4%BA%8EAvalon_MM%E6%8E%A5%E5%8F%A3%E7%9A%84SDRAM%E8%AF%BB%E5%86%99/"/>
       <url>/2023/05/23/%E5%9F%BA%E4%BA%8EAvalon_MM%E6%8E%A5%E5%8F%A3%E7%9A%84SDRAM%E8%AF%BB%E5%86%99/</url>
