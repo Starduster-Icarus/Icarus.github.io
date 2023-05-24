@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>FPGA开发流程</title>
+      <link href="/2023/05/24/FPGA%E5%BC%80%E5%8F%91%E6%B5%81%E7%A8%8B/"/>
+      <url>/2023/05/24/FPGA%E5%BC%80%E5%8F%91%E6%B5%81%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<h1 id="FPGA开发流程"><a href="#FPGA开发流程" class="headerlink" title="FPGA开发流程"></a>FPGA开发流程</h1><h2 id="1-分析需求，确定方案"><a href="#1-分析需求，确定方案" class="headerlink" title="1. 分析需求，确定方案 "></a><font color= salmon size=5>1. 分析需求，确定方案 </font ></h2><h2 id="2-设计方案（程序框图、模块划分、模块间信号、模块内信号、模块逻辑确定、模块逻辑实现方式……）【确定程序框架、确定接口、模块间信号、模块内信号】"><a href="#2-设计方案（程序框图、模块划分、模块间信号、模块内信号、模块逻辑确定、模块逻辑实现方式……）【确定程序框架、确定接口、模块间信号、模块内信号】" class="headerlink" title="2.设计方案（程序框图、模块划分、模块间信号、模块内信号、模块逻辑确定、模块逻辑实现方式……）【确定程序框架、确定接口、模块间信号、模块内信号】"></a><br><font color= salmon size=5>2.设计方案（程序框图、模块划分、模块间信号、模块内信号、模块逻辑确定、模块逻辑实现方式……）【确定程序框架、确定接口、模块间信号、模块内信号】</font ></h2><h2 id="3-设计输入（写代码-VerilogHDL-x2F-VHDL编码）"><a href="#3-设计输入（写代码-VerilogHDL-x2F-VHDL编码）" class="headerlink" title="3.设计输入（写代码(VerilogHDL&#x2F;VHDL编码）"></a><br><font color= salmon size=5>3.设计输入（写代码(VerilogHDL&#x2F;VHDL编码）</font ></h2><h2 id="4-RTL功能仿真（验证逻辑功能-amp-数据流，Modelsim-编译"><a href="#4-RTL功能仿真（验证逻辑功能-amp-数据流，Modelsim-编译" class="headerlink" title="4.RTL功能仿真（验证逻辑功能&amp;数据流，Modelsim)编译"></a><br><font color= salmon size=5>4.RTL功能仿真（验证逻辑功能&amp;数据流，Modelsim)编译</font ></h2><h2 id="5-分析综合（将设计映射为器件模型，生成网表文件）【分析语法错误】"><a href="#5-分析综合（将设计映射为器件模型，生成网表文件）【分析语法错误】" class="headerlink" title="5.分析综合（将设计映射为器件模型，生成网表文件）【分析语法错误】"></a><br><font color= salmon size=5>5.分析综合（将设计映射为器件模型，生成网表文件）【分析语法错误】</font ></h2><h2 id="6-布局布线（功能映射、指定布线资源）【利用分析与综合建立的数据库】"><a href="#6-布局布线（功能映射、指定布线资源）【利用分析与综合建立的数据库】" class="headerlink" title="6.布局布线（功能映射、指定布线资源）【利用分析与综合建立的数据库】"></a><br><font color= salmon size=5>6.布局布线（功能映射、指定布线资源）【利用分析与综合建立的数据库】</font ></h2><h2 id="7-门级仿真（根据估计的布局布线延时进行时序仿真）"><a href="#7-门级仿真（根据估计的布局布线延时进行时序仿真）" class="headerlink" title="7.门级仿真（根据估计的布局布线延时进行时序仿真）"></a><br><font color= salmon size=5>7.门级仿真（根据估计的布局布线延时进行时序仿真）</font ></h2><h2 id="8-时序分析（验证设计是否满足时序和性能要求——Timing-Analyzer工具）时序仿真"><a href="#8-时序分析（验证设计是否满足时序和性能要求——Timing-Analyzer工具）时序仿真" class="headerlink" title="8.时序分析（验证设计是否满足时序和性能要求——Timing Analyzer工具）时序仿真"></a><br><font color= salmon size=5>8.时序分析（验证设计是否满足时序和性能要求——Timing Analyzer工具）时序仿真</font ></h2><h2 id="9-板级验证（板级调试——Signal-Tap嵌入式逻辑分析工具）"><a href="#9-板级验证（板级调试——Signal-Tap嵌入式逻辑分析工具）" class="headerlink" title="9.板级验证（板级调试——Signal Tap嵌入式逻辑分析工具）"></a><br><font color= salmon size=5>9.板级验证（板级调试——Signal Tap嵌入式逻辑分析工具）</font ></h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> FPGA </category>
+          
+          <category> FPGA开发流程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> FPGA </tag>
+            
+            <tag> FPGA开发流程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>基于Avalon_MM接口的SDRAM读写</title>
       <link href="/2023/05/23/%E5%9F%BA%E4%BA%8EAvalon_MM%E6%8E%A5%E5%8F%A3%E7%9A%84SDRAM%E8%AF%BB%E5%86%99/"/>
       <url>/2023/05/23/%E5%9F%BA%E4%BA%8EAvalon_MM%E6%8E%A5%E5%8F%A3%E7%9A%84SDRAM%E8%AF%BB%E5%86%99/</url>
